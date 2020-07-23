@@ -1,5 +1,5 @@
 nav {
-    margin: 0.5em 0 1em 0;
+    margin: .5em 0 1em 0;
     text-align: center;
     width: 100%;
 }
@@ -7,9 +7,34 @@ nav {
 nav li{
     display: inline-block;
     color: #000;
-    padding: 0.5em 1em;
+    padding: .5em 1em;
+    border-radius: .5em;
+    background: white;
+}
+body {
+    margin: 0;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    background: grey;
+}
+
+.header {
+    background: sandybrown;
+    font-weight: bold;
+    padding: 2em 1em;
+    font-size: 2em;
+    border-radius: .5em;
+}
+
+.page-wrapper {
+    max-width: 45em;
+    margin: auto;   
+}
+
+.content {
+    background: white;
+    padding: 2em 1em 2em;
     border-radius: 0.5em;
-    background-color: rgb(226, 226, 226);
+    margin: 2em 0 2em;
 }
 
 nav ol {
@@ -23,34 +48,5 @@ nav li a {
 }
 
 nav li:hover {
-    background-color: rgb(177, 170, 170);
-}
-
-body {
-    margin: 0;
-    font-family: 'Helvetica', 'Arial', sans-serif;
-}
-
-.header{
-    background-color: sandybrown;
-    font-weight: bold;
-    padding: 2em 1em;
-    font-size: 2em;
-    border-radius: 0.5em;
-}
-
-.page-wrapper {
-    max-width: 45rem;
-    margin: auto;   
-}
-
-.content {
     background-color: rgb(226, 226, 226);
-    padding: 2em 1em 2em;
-    border-radius: 0.5em;
-    margin: 2em 0 2em;
-}
-
-html {
-    background-color: grey;
 }

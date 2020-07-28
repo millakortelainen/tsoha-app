@@ -1,22 +1,16 @@
-nav {
-    margin: .5em;
-    text-align: center;
-}
-
-nav li{
-    display: inline-block;
-    color: #000;
-    padding: .5em 1em;
-    border-radius: .5em;
-    background: white;
-    margin: .2em;
-}
-
 body {
+    margin: auto;
     max-width: 45em;
-    margin: auto;  
     font-family: 'Helvetica', 'Arial', sans-serif;
-    background: grey;
+    background: gray;
+}
+
+nav li {
+    display: inline-block;
+    padding: .5em 1em;
+    background: white;
+    border-radius: .5em;
+    margin: .2em;
 }
 
 .header {
@@ -28,21 +22,28 @@ body {
     margin-top: .5em;
 }
 
+form {
+    display: block;
+    float: right;
+    padding: .5em;
+    background: blanchedalmond;
+    border-radius: .5em;
+}
+
+nav ul {
+    padding: 0;
+    margin: .5em;
+    text-align: center;
+}
+
 h2 {
     margin-top: 0;
 }
 
 .content {
-    background: white;
-    padding: 2em;
-    border-radius: .5em;
-    margin-bottom: 1em;
-}
-
-nav ol {
-    margin: 0;
-    padding: 0;
-    display: inline-block;
+   background: white;
+   padding: 1em;
+   border-radius: .5em
 }
 
 nav li a {
@@ -52,12 +53,4 @@ nav li a {
 
 nav li:hover {
     background-color: rgb(226, 226, 226);
-}
-
-.form {
-    display: block;
-    float: right;
-    background-color: blanchedalmond;
-    border-radius: .5em;
-    padding: .5em;
 }

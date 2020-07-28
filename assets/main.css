@@ -54,6 +54,7 @@ nav li:hover {
 
 .form {
     display: inline-block;
+    float: right;
     background-color: blanchedalmond;
     border-radius: .5em;
     padding: .5em;

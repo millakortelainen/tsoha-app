@@ -40,6 +40,7 @@ body {
 nav ol {
     margin: 0;
     padding: 0;
+    display: inline-block;
 }
 
 nav li a {
@@ -49,4 +50,11 @@ nav li a {
 
 nav li:hover {
     background-color: rgb(226, 226, 226);
+}
+
+.form {
+    display: inline-block;
+    background-color: blanchedalmond;
+    border-radius: .5em;
+    padding: .5em;
 }

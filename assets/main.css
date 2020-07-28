@@ -1,7 +1,6 @@
 nav {
-    margin: .5em 0 1em 0;
+    margin: .5em;
     text-align: center;
-    width: 100%;
 }
 
 nav li{
@@ -10,9 +9,12 @@ nav li{
     padding: .5em 1em;
     border-radius: .5em;
     background: white;
+    margin: .2em;
 }
+
 body {
-    margin: 0;
+    max-width: 45em;
+    margin: auto;  
     font-family: 'Helvetica', 'Arial', sans-serif;
     background: grey;
 }
@@ -23,18 +25,18 @@ body {
     padding: 2em 1em;
     font-size: 2em;
     border-radius: .5em;
+    margin-top: .5em;
 }
 
-.page-wrapper {
-    max-width: 45em;
-    margin: auto;   
+h2 {
+    margin-top: 0;
 }
 
 .content {
     background: white;
-    padding: 2em 1em 2em;
-    border-radius: 0.5em;
-    margin: 2em 0 2em;
+    padding: 2em;
+    border-radius: .5em;
+    margin-bottom: 1em;
 }
 
 nav ol {
@@ -53,7 +55,7 @@ nav li:hover {
 }
 
 .form {
-    display: inline-block;
+    display: block;
     float: right;
     background-color: blanchedalmond;
     border-radius: .5em;

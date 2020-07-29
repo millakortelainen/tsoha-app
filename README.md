@@ -1,1 +1,3 @@
-# Staattisen sivun ulkoasu esimerkki
+# Tsoha App
+
+Esimerkki staattisen sivun muotoilusta `CSS`llä.

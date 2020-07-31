@@ -7,7 +7,7 @@ body {
 
 nav li {
     display: inline-block;
-    padding: .5em 1em;
+    padding: .7em 1em .5em;
     background: white;
     border-radius: .5em;
     margin: .2em;
@@ -23,12 +23,38 @@ nav li {
 }
 
 form {
-    display: block;
     float: right;
     padding: .5em;
     background: blanchedalmond;
     border-radius: .5em;
+    max-width: 15em;
+    display  : grid;
+    grid-template-columns: 5em 10em;
+    grid-row-gap: .3em;
+    margin-bottom: 2em;
+    margin-left: 2em;
+    
 }
+
+form label, input{
+    margin: auto 0;
+}
+
+form #button {
+    grid-column-start: 2;
+    padding:5px;
+    border: none;
+    text-align: center;
+    width: 5em;
+    margin: auto 0 auto 5.5em;
+    background: tan;
+}
+
+form #button:hover{
+    background: rgb(138, 119, 94);
+    color: white;
+}
+
 
 nav ul {
     padding: 0;
@@ -54,3 +80,4 @@ nav li a {
 nav li:hover {
     background-color: rgb(226, 226, 226);
 }
+
